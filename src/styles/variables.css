@@ -1,0 +1,72 @@
+:root {
+    --primary: #151C32;
+    --text-primary: #DBA757;
+    --font-sans: "DM Sans", -apple-system, system-ui, BlinkMacSystemFont, 'Helvetica Neue', 'Helvetica', sans-serif;
+    --scrollbar-width: 14px;
+}
+.to-opaque-pink {
+    background: none !important;
+    border: 2px solid #DBA757 !important;
+    color: #DBA757 !important;
+}
+
+.grid .grid-cols-3 .rounded .p-3px .bg-dark-800 .h-[46px] {
+    border: 2px solid #DBA757 !important;
+    color: #DBA757 !important;
+
+}
+.w-full .text-high-emphesis .bg-gradient-to-r .from-blue .to-pink  {
+    background: none !important;
+    border: 2px solid #DBA757 !important;
+    color: #DBA757 !important;
+}
+.w-full .text-high-emphesis .bg-gradient-to-r .from-blue .to-pink >:hover{
+    background: none;
+    border: 2px solid #151C32 !important;
+    color: #151C32 !important;
+}
+#swap-button {
+    background: none !important;
+    color: #DBA757 !important;
+    border: 3px solid #DBA757 !important;
+}
+.w-full.text-high-emphesis.bg-gradient-to-r.from-blue.to-pink.opacity-80.hover\:opacity-100.disabled\:bg-opacity-80.px-6.py-4.text-base.rounded.disabled\:cursor-not-allowed.focus\:outline-none {
+    background: none !important;
+    color: #DBA757 !important;
+    border: 3px solid #DBA757 !important;
+}
+#charz { 
+    position:fixed;
+    bottom: 50px;
+    width: 100%;
+    height: 50px;
+    overflow: hidden;
+    background:url(/images/footer.png) repeat-x;
+    background-position: bottom;
+    z-index: -1;
+}
+#hercules {
+    position: absolute;
+    bottom: 80px;
+    max-height: 90%;
+    z-index: -1;
+    overflow: hidden;
+}
+#seraphima {
+    position: absolute;
+    bottom: 80px;
+    height: 85%;
+    right: 0;
+    z-index: -1;
+    overflow: hidden;
+}
+body {
+    z-index: 2 !important;
+    overflow: hidden;
+}
+#add-pool-button {
+    background: none !important;
+    color: #DBA757 !important;
+    border: 3px solid #DBA757 !important;
+
+}
